@@ -48,3 +48,13 @@ a#navbar {
 footer {
   text-align: center;
 }
+
+.content {
+  justify-content: space-between;
+}
+
+.required {
+  float: right;
+  font-weight: bold;
+  color: red;
+}

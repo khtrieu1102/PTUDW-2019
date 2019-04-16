@@ -1,0 +1,59 @@
+<DOCTYPE! html>
+  <head>
+    <title>1612738 - Dang ky hoc phan</title>
+    <link rel="stylesheet" href="dangkymonhoc.css" />
+  </head>
+  <body onload="loadingSomething()">
+    <header>
+      <h1>Dang ky mon hoc</h1>
+      <hr />
+    </header>
+    <main>
+      <form method="POST">
+      <p>Ma so</p>
+      <input id="studentId" placeholder="Ma so" />
+
+      <p>Ho ten</p>
+      <input id="studentName" placeholder="Ho ten" />
+
+      <p>Gioi tinh</p>
+      <input type="radio" value="Nam" name="genderS" checked="true">Nam</input>
+      <input type="radio" value="Nu" name="genderS">Nu</input>
+
+      <p>Ngay sinh</p>
+      <select id="date"></select>
+      <select id="month"></select>
+      <select id="year"></select> 
+
+      <fieldset class="SubjectField" >
+        <legend>Cac mon hoc:</legend>
+        <select id="SubjectAvailable" multiple>
+        </select> 
+      </fieldset>
+
+      <button type="button" onclick="getSubjectFromAvailable()">></input>
+      <button type="button" onclick="removeSubjectToAvailable()"><</button>
+      <button type="button" onclick="resetSubject()"><></button>
+      <button type="button" onclick="pushDataToTable()">Dang ky</button>
+
+      <fieldset class="SubjectField" >
+        <legend>Da dang ky:</legend>
+        <select id="SubjectAssigned" multiple></select> 
+      </fieldset> 
+      </form>
+
+      <table id="studentList">
+        <th>Ma so</th>
+        <th>Ho ten</th>
+        <th>Gioi tinh</th>
+        <th>Ngay sinh</th>
+      </table>
+
+    </main>
+
+    
+    <script src="dangkymonhoc.js"></script>
+  </body>
+
+  <html></html
+></DOCTYPE!>

@@ -1,0 +1,31 @@
+.SubjectField {
+  width: 400px;
+}
+
+select,
+fieldset.Subjectfields {
+  border: none;
+  overflow: hidden;
+}
+
+select::hover {
+  border: none;
+}
+
+select::selection {
+  border: none;
+}
+
+li {
+  list-style-type: none;
+  margin: 0px;
+}
+
+ul {
+  margin: 0;
+  padding-inline-start: 15px;
+}
+
+#studentList {
+  width: 200px;
+}
